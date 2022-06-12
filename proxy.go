@@ -1,4 +1,4 @@
-package goproxy
+package netero
 
 import (
 	"bufio"
@@ -19,8 +19,10 @@ type ProxyHttpServer struct {
 	// KeepDestinationHeaders indicates the proxy should retain any headers present in the http.Response before proxying
 	KeepDestinationHeaders bool
 	// setting Verbose to true will log information on each request sent to the proxy
-	Verbose         bool
-	Logger          Logger
+	Verbose bool
+
+	//TODO: interface
+	Logger          interface{}
 	NonproxyHandler http.Handler
 	reqHandlers     []ReqHandler
 	respHandlers    []RespHandler

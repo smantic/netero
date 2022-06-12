@@ -1,4 +1,4 @@
-package goproxy_test
+package netero
 
 import (
 	"bufio"
@@ -23,7 +23,6 @@ import (
 	"time"
 
 	"github.com/elazarl/goproxy"
-	goproxy_image "github.com/elazarl/goproxy/ext/image"
 )
 
 var acceptAllCerts = &tls.Config{InsecureSkipVerify: true}

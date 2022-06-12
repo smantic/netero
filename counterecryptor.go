@@ -1,4 +1,4 @@
-package goproxy
+package netero
 
 import (
 	"crypto/aes"

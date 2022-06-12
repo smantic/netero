@@ -1,4 +1,4 @@
-package goproxy_test
+package netero
 
 import (
 	"bytes"

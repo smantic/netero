@@ -97,4 +97,4 @@ Will warn if multiple versions of jquery are used in the same domain.
 Modifies image files in an HTTP response via goproxy's image extension found in ext/.
 
 */
-package goproxy
+package netero
