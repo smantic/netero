@@ -13,4 +13,4 @@ A Forward Proxy, HTTP Cache, that uses Badger.
 
 
 ## License 
-This project (smantic/netero) is a derivative of (elazarl/goproxy)[https://github.com/elazarl/goproxy] whose original BSD-3 license is preserved, and the new derivative work is licensed under GPL3.0.
+This project (smantic/netero) is a derivative of [elazarl/goproxy](https://github.com/elazarl/goproxy) whose original BSD-3 license is preserved, and the new derivative work is licensed under GPL3.0.
