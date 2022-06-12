@@ -1,3 +1,8 @@
-module github.com/elazarl/goproxy
+module github.com/smantic/netero
 
-require github.com/elazarl/goproxy/ext v0.0.0-20190711103511-473e67f1d7d2
+go 1.18
+
+require (
+	github.com/elazarl/goproxy v0.0.0-20220529153421-8ea89ba92021
+	github.com/elazarl/goproxy/ext v0.0.0-20220529153421-8ea89ba92021
+)
